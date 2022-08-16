@@ -8,6 +8,9 @@ const Board = () => {
         <Square value={0} />
         <Square value={1} />
         <Square value={2} />
+        <Square>
+          <p>gsg</p>
+        </Square>
       </div>
       <div>
         <Square value={3} />

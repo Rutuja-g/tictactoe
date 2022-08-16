@@ -1,8 +1,13 @@
 import React from 'react';
+import './Square.style.css';
 
-const Square = props => {
-  console.log(props);
-  return <button type="button">{props.value}</button>;
+const Square = ({ value }) => {
+  // console.log(props);
+  return (
+    <button type="button" className="btn">
+      {value}
+    </button>
+  );
 };
 
 export default Square;

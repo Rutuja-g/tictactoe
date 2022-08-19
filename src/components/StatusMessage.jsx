@@ -5,7 +5,9 @@ const StatusMessage = ({ winner, current }) => {
 
   return (
     <h2>
-      {winner && `Winner is ${winner}`} //this must always return boolean value
+      {winner && `Winner is ${winner}`}{' '}
+      {/*this must always return boolean
+      value*/}
       {!winner &&
         !noMovesLeft &&
         `Next player is ${current.isXNext ? 'X' : 'O'}`}
